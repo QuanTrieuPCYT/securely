@@ -1,8 +1,8 @@
-import http.server
-import http.client
 import base64
+import http.client
+import http.server
 import json
-from http.server import BaseHTTPRequestHandler, HTTPServer, ThreadingHTTPServer
+from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 with open('config.json') as f:
     config = json.loads(f.read())
