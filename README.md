@@ -5,6 +5,7 @@ Pair this with your existing app to add basic authentication for testing without
 
 Please include HTTPS support with a proper external webserver (or Cloudflare Tunnel, I personally recommend this one) if you're intending to expose this to the internet. Might include a simple HTTP rate-limiter in the future, configurable via config file.
 ## Features
+- Supports multiple HTTP methods (GET, POST, PUT, DELETE, etc.).
 - Lightweight as hell, using Python's built-in libraries.
 - Redirects all headers to make requests look like it's coming directly to the target server.
 - Detailed logging.
